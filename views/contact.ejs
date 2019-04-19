@@ -1,0 +1,66 @@
+<% include partials/header %>
+
+<body class="contact"> 
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+        
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse align-self-flex-end flex" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex">
+                <li class="nav-item flex-fill">
+                    <a class="nav-link" href="/"  style="color:  rgba(0, 50, 100, 0.7); font-size: 16px;" >Home</a>
+                </li>
+                <li class="nav-item flex-fill">
+                    <a class="nav-link" href="/about"  style="color:  rgba(0, 50, 100, 0.7); font-size: 16px;" >About</a>
+                </li>
+                 <a class="navbar-brand" href="#"><img style="opacity: 0.5; border-radius: 4px; height: 80px; width: 80px" src="stylesheets/Logo Evija small.jpg"></a>
+                <li class="nav-item flex-fill">
+                    <a class="nav-link" href="/mywork"  style="color: rgba(0, 50, 100, 0.7);  font-size: 16px;">My Work</a>
+                </li>
+                 
+                <li class="nav-item flex-fill">
+                    <a class="nav-link active" href="/contact" style="color:rgba(0, 50, 100, 0.7); font-size: 16px;">Contacts</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        
+
+      <div class="container">
+             
+        <section id="contact">
+            
+         <info>
+            <name>Name: Evija Bumeistere</name>
+            <phone>Cell: +386 64 183 559</phone>
+            <email>E-mail: evija.bumeistere27@gmail.com</email>
+          </info>
+
+        <form id="contactform">
+            <div class="leftside">
+                <input name="firstlastname" type="text" value="Name:">
+                <input name="email" type="text" value="Your e-mail:">
+                <input name="subject" type="text" value="Subject:">
+            </div>
+            <p class="border"></p>
+            <div class="rightside">
+                
+                <textarea id="resizable" rows="5" cols="20"></textarea>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+
+             
+        </form>
+          
+    
+
+   
+        <!--<h1 id ="comingsoon">< coming soon ></h1>-->
+
+
+
+</section>
+<% include partials/footer %>
